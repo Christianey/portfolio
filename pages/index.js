@@ -24,20 +24,20 @@ export default function Home() {
       >
         <Circle
           pos={"absolute"}
-          size={["20rem", "25rem", "25rem", "28rem"]}
+          size={["20rem", "25rem", "25rem", "30rem"]}
           left={"50%"}
           top={"-10%"}
           transform={"translate(-50%, -50%)"}
-          bg="radial-gradient(circle, #00C95D 30%, transparent 70%)"
+          bg="radial-gradient(circle, #3A9190 30%, #00C95D55 47%, #00C95D22 57%, #00C95D11 62%, transparent 71%)"
           zIndex={"1"}
         />
         <Circle
           pos={"absolute"}
-          size={["20rem", "25rem", "25rem", "28rem"]}
+          size={["20rem", "25rem", "25rem", "30rem"]}
           left={"50%"}
           bottom={"-10%"}
           transform={"translate(-50%, 50%)"}
-          bg="radial-gradient(circle, #3A91A0 30%, transparent 70%)"
+          bg="radial-gradient(circle, #3A9190 30%, #3A91A055 47%, #3A91A022 57%, #3A91A011 62%, transparent 71%)"
         />
 
         <Nav />

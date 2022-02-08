@@ -9,7 +9,7 @@ const Nav = () => {
       py={4}
       px={10}
       bgColor="rgba(14,14,28, .8)"
-      backdropBlur={"10px"}
+      sx={{ backdropFilter: "30px" }}
       shadow={"lg"}
       h={"10vh"}
       zIndex={"10"}
@@ -21,6 +21,11 @@ const Nav = () => {
         align={"center"}
         color={"white"}
         w={"30%"}
+        sx={{
+          "& > .chakra-text": {
+            _hover: { color: "primary", cursor: "pointer" },
+          },
+        }}
       >
         <Link href={"#about"}>
           <Text>ABOUT</Text>
