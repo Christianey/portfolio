@@ -8,8 +8,8 @@ const Nav = () => {
       bg={"darkBlue"}
       py={4}
       px={10}
-      bgColor="rgba(14,14,28, .8)"
-      sx={{ backdropFilter: "30px" }}
+      bgColor="rgba(14,14,28, .5)"
+      sx={{ backdropFilter: "blur(30px)" }}
       shadow={"lg"}
       h={"10vh"}
       zIndex={"10"}
