@@ -7,7 +7,7 @@ const Hero = () => {
       px={[4, 4, 6, 10]}
       py={[2, 2, 4, 6]}
       sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
-      w={[null, null, null, null, "70%"]}
+      w={[null, null, null, "80%", "70%"]}
     >
       <Text
         color={"white"}
@@ -49,7 +49,7 @@ const Hero = () => {
         boxShadow={"0 4px 30px rgba(0, 0, 0, 0.1)"}
         backdropBlur={"5px"}
         border={"1px solid rgba(255, 255, 255, 0.3)"}
-        w={["100%", "100%", "100%", "80%"]}
+        w="full"
         _before={{
           content: "''",
           w: "full",

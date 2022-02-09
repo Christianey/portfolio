@@ -7,7 +7,7 @@ const Nav = () => {
       justify={"space-between"}
       bg={"darkBlue"}
       py={4}
-      px={[1, 2, 6, 10]}
+      px={[2, 3, 6, 10]}
       bgColor="rgba(14,14,28, .5)"
       sx={{ backdropFilter: "blur(30px)" }}
       shadow={"lg"}
