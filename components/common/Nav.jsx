@@ -7,7 +7,7 @@ const Nav = () => {
       justify={"space-between"}
       bg={"darkBlue"}
       py={4}
-      px={10}
+      px={[1, 2, 6, 10]}
       bgColor="rgba(14,14,28, .5)"
       sx={{ backdropFilter: "blur(30px)" }}
       shadow={"lg"}
@@ -20,10 +20,15 @@ const Nav = () => {
         justify={"space-between"}
         align={"center"}
         color={"white"}
-        w={"30%"}
+        minW={"30%"}
+        gridGap={4}
         sx={{
           "& > .chakra-text": {
-            _hover: { color: "primary", cursor: "pointer" },
+            fontSize: [".8rem", ".8rem", "1rem", "1rem"],
+            _hover: {
+              color: "primary",
+              cursor: "pointer",
+            },
           },
         }}
       >
