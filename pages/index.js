@@ -1,7 +1,8 @@
-import { Circle, Flex } from "@chakra-ui/react";
+import { Circle, Flex, Image } from "@chakra-ui/react";
 import Head from "next/head";
 import Nav from "../components/common/Nav";
 import Hero from "../components/Hero";
+import styles from "./Hand.module.css";
 
 export default function Home() {
   return (
@@ -45,7 +46,25 @@ export default function Home() {
             backdropFilter: [null, null, null, "blur(2px) "],
           }}
         />
-
+        <Flex
+          h={["50%", "50%", "40%", "70%"]}
+          pos={"absolute"}
+          zIndex={20}
+          margin={0}
+          bottom={0}
+          right={0}
+          className={styles.hand}
+          sx={{
+            "&": {
+              "@keyframes example": {
+                from: { backgroundColor: "red" },
+                to: { backgroundColor: "yellow" },
+              },
+            },
+          }}
+        >
+          <Image src="/hand.png" />
+        </Flex>
         <Nav />
         <Hero />
       </Flex>

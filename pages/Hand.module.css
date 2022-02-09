@@ -1,0 +1,12 @@
+.hand {
+  animation: example 2s linear 2s infinite alternate;
+}
+
+@keyframes example {
+  from {
+    transform: rotate(325deg);
+  }
+  to {
+    transform: rotate(305deg);
+  }
+}

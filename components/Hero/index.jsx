@@ -1,4 +1,4 @@
-import { Flex, Text, Circle } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
@@ -49,6 +49,7 @@ const Hero = () => {
         boxShadow={"0 4px 30px rgba(0, 0, 0, 0.1)"}
         backdropBlur={"5px"}
         border={"1px solid rgba(255, 255, 255, 0.3)"}
+        w={["100%", "100%", "100%", "80%"]}
         _before={{
           content: "''",
           w: "full",
@@ -58,7 +59,7 @@ const Hero = () => {
           left: 0,
           top: 0,
           backgroundSize: "contain",
-          filter: "blur(20px) opacity(0.12)",
+          filter: "blur(20px) opacity(0.1)",
         }}
         fontSize={["1rem", "1rem", "1rem", "1.3rem"]}
       >
