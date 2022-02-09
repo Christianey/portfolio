@@ -5,6 +5,7 @@ const Hero = () => {
     <Flex
       direction={"column"}
       px={[4, 4, 6, 10]}
+      py={[2, 2, 4, 6]}
       sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
       w={[null, null, null, null, "70%"]}
     >
@@ -12,7 +13,7 @@ const Hero = () => {
         color={"white"}
         pos={"relative"}
         top={[2, 2, 6, 10]}
-        left={[2, 2, 20, "28"]}
+        left={[0, 2, 20, "28"]}
       >
         Hello there, I am{" "}
       </Text>
@@ -59,13 +60,13 @@ const Hero = () => {
           backgroundSize: "contain",
           filter: "blur(20px) opacity(0.12)",
         }}
+        fontSize={["1rem", "1rem", "1rem", "1.3rem"]}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero
-        laudantium, et impedit error dignissimos accusamus? Iste nulla assumenda
-        asperiores odio veniam cumque inventore aut praesentium amet, reiciendis
-        officiis! Accusantium sint architecto qui ab, nam quis laudantium
-        laboriosam cupiditate ratione quidem tempore doloribus quo, maxime
-        dolorem. Magnam modi voluptatum sint!
+        Developer with an eye for design backed by experience as a design intern
+        and freelancer. I have a passion for good user experience and mobile
+        responsiveness. I have a knack for learning and problem solving using
+        the right tools and up to date technology. Goal-oriented and
+        self-driven.
       </Text>
     </Flex>
   );
