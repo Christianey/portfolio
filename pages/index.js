@@ -1,4 +1,4 @@
-import { Circle, Flex, Image } from "@chakra-ui/react";
+import { Circle, Flex, Image, ScaleFade } from "@chakra-ui/react";
 import Head from "next/head";
 import Nav from "../components/common/Nav";
 import Hero from "../components/Hero";
@@ -6,7 +6,7 @@ import styles from "./Hand.module.css";
 
 export default function Home() {
   return (
-    <>
+    <ScaleFade in={true} initialScale={0.7}>
       <Head>
         <title>Fegabyte Tech</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -68,6 +68,6 @@ export default function Home() {
         <Nav />
         <Hero />
       </Flex>
-    </>
+    </ScaleFade>
   );
 }

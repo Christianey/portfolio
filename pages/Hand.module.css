@@ -1,5 +1,6 @@
 .hand {
   animation: example 2s linear 2s infinite alternate;
+  will-change: transform;
 }
 
 @keyframes example {
