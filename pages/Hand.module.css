@@ -1,6 +1,5 @@
 .hand {
   animation: hand 2s linear 2s infinite alternate;
-  animation-delay: 2s;
   will-change: transform;
   backface-visibility: hidden;
 }
