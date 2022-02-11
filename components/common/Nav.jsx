@@ -13,6 +13,8 @@ const Nav = () => {
       shadow={"lg"}
       h={"10vh"}
       zIndex={"10"}
+      pos={"sticky"}
+      top={0}
     >
       <Image />
       <Flex

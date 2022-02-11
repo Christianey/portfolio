@@ -1,5 +1,4 @@
-import { ChakraProvider, Flex, Image } from "@chakra-ui/react";
-import FloatingNav from "../components/common/FloatingNav";
+import { ChakraProvider, Flex, Box } from "@chakra-ui/react";
 import Nav from "../components/common/Nav";
 import CircleGradients from "../components/Hero/components/CircleGradients";
 import theme from "../constants/theme";
@@ -18,8 +17,9 @@ function MyApp({ Component, pageProps }) {
       >
         <Nav />
         <CircleGradients />
-        <Component {...pageProps} />
-        <FloatingNav />
+        <Box zIndex={30} px={4} py={8}>
+          <Component {...pageProps} />
+        </Box>
       </Flex>
     </ChakraProvider>
   );

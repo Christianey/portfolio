@@ -57,7 +57,7 @@ const FloatingNav = () => {
           },
         }}
       ></Flex>
-      <Link href={"#about"}>
+      <Link href={"/about"}>
         <Flex
           className="link-wrapper"
           direction="column"
@@ -69,7 +69,7 @@ const FloatingNav = () => {
           <Text>ABOUT</Text>
         </Flex>
       </Link>
-      <Link href={"#work"}>
+      <Link href={"/work"}>
         <Flex
           className="link-wrapper"
           direction="column"
@@ -81,7 +81,7 @@ const FloatingNav = () => {
           <Text>WORK</Text>
         </Flex>
       </Link>
-      <Link href={"#skills"}>
+      <Link href={"/skills"}>
         <Flex
           className="link-wrapper"
           direction="column"
@@ -93,7 +93,7 @@ const FloatingNav = () => {
           <Text>SKILLS</Text>
         </Flex>
       </Link>
-      <Link href={"#contact"}>
+      <Link href={"/contact"}>
         <Flex
           className="link-wrapper"
           direction="column"
