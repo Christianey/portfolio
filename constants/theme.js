@@ -6,10 +6,10 @@ const colors = {
   darkBlue: "#0E0E1C",
 };
 
-const fonts = {
-  heading: "Nexa, sans-serif",
-  body: "Nexa, sans-serif",
-};
+// const fonts = {
+//   heading: "Nexa, sans-serif",
+//   body: "Nexa, sans-serif",
+// };
 
 // const Button = {
 //   baseStyle: {
@@ -54,6 +54,6 @@ const fonts = {
 //   },
 // };
 
-const theme = extendTheme({ colors, fonts });
+const theme = extendTheme({ colors });
 
 export default theme;
