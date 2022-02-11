@@ -1,13 +1,27 @@
 .hand {
-  animation: example 2s linear 2s infinite alternate;
+  animation: hand 2s linear 2s infinite alternate;
+  animation-delay: 2s;
   will-change: transform;
 }
 
-@keyframes example {
+.floating {
+  animation: floating-nav 2s linear 2s infinite alternate;
+  will-change: transform;
+}
+
+@keyframes hand {
   from {
     transform: rotate(325deg);
   }
   to {
     transform: rotate(305deg);
+  }
+}
+@keyframes floating-nav {
+  from {
+    transform: translate(-50%, 10px);
+  }
+  to {
+    transform: translate(-50%, 0);
   }
 }
