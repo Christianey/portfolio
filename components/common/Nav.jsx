@@ -15,6 +15,7 @@ const Nav = () => {
       h={"10vh"}
       zIndex={"10"}
       pos={"sticky"}
+      align={"center"}
       top={0}
     >
       <Link href={"/"}>
