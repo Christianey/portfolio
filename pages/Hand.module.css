@@ -2,11 +2,13 @@
   animation: hand 2s linear 2s infinite alternate;
   animation-delay: 2s;
   will-change: transform;
+  backface-visibility: hidden;
 }
 
 .floating {
   animation: floating-nav 2s linear 2s infinite alternate;
   will-change: transform;
+  backface-visibility: hidden;
 }
 
 @keyframes hand {
