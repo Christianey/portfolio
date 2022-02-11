@@ -5,7 +5,7 @@ const Hero = () => {
     <Flex
       direction={"column"}
       px={[4, 4, 6, 10]}
-      py={[2, 2, 4, 6]}
+      py={[4, 4, 4, 6]}
       sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
       w={[null, null, null, "80%", "70%"]}
       h={"90vh"}
@@ -13,7 +13,7 @@ const Hero = () => {
       <Text
         color={"white"}
         pos={"relative"}
-        top={[2, 2, 6, 10]}
+        top={[1, 2, 6, 10]}
         left={[0, 2, 20, "28"]}
       >
         Hello there, I am{" "}
