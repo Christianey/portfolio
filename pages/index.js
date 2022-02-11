@@ -12,10 +12,6 @@ export default function Home() {
       <Head>
         <title>Fegabyte Tech</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link
-          href="http://fonts.cdnfonts.com/css/nexa-bold"
-          rel="stylesheet"
-        ></link>
       </Head>
       <Flex
         direction={"column"}
