@@ -18,8 +18,6 @@ import {
   SiJavascript,
   SiMaterialui,
   SiMongodb,
-  SiAdobephotoshop,
-  SiAdobeillustrator,
 } from "react-icons/si";
 import { FaReact, FaSass } from "react-icons/fa";
 import { DiCss3, DiIllustrator, DiPhotoshop } from "react-icons/di";
@@ -100,18 +98,18 @@ const Skills = () => {
           <TabList
             as={Flex}
             // gridGap={4}
-            // borderBottom={"none"}
+            borderBottomColor={"secondary"}
             // color={"primary"}
             // fontSize={"2rem"}
             // fontWeight={"bold"}
             sx={{
               "& > button": {
-                color: "secondary",
+                color: "white",
                 _selected: {
                   color: "primary",
                   fontWeight: "bold",
                   fontSize: "1.3rem",
-                  borderBottomColor: "primary",
+                  borderBottomColor: "secondary !important",
                   transition: "all 3ms ease-in",
                   borderBottom: "5px solid",
                   borderRadius: "md",

@@ -1,4 +1,5 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
+import { RiHomeLine } from "react-icons/ri";
 import Link from "next/link";
 
 const Nav = () => {
@@ -16,7 +17,9 @@ const Nav = () => {
       pos={"sticky"}
       top={0}
     >
-      <Image />
+      <Link href={"/"}>
+        <RiHomeLine size="2rem" color="white" />
+      </Link>
       <Flex
         as="nav"
         justify={"space-between"}
@@ -35,16 +38,24 @@ const Nav = () => {
         }}
       >
         <Link href={"/about"}>
-          <Text>ABOUT</Text>
+          <a>
+            <Text>ABOUT</Text>
+          </a>
         </Link>
         <Link href={"/work"}>
-          <Text>WORK</Text>
+          <a>
+            <Text>WORK</Text>
+          </a>
         </Link>
         <Link href={"/skills"}>
-          <Text>SKILLS</Text>
+          <a>
+            <Text>SKILLS</Text>
+          </a>
         </Link>
         <Link href={"/contact"}>
-          <Text>CONTACT</Text>
+          <a>
+            <Text>CONTACT</Text>
+          </a>
         </Link>
       </Flex>
     </Flex>
