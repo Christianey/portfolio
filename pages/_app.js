@@ -12,12 +12,14 @@ function MyApp({ Component, pageProps }) {
         direction={"column"}
         pos={"relative"}
         w="full"
-        h="100vh"
+        minH="100vh"
         bg={"darkBlue"}
         overflow={"hidden"}
       >
+        <Nav />
         <CircleGradients />
         <Component {...pageProps} />
+        <FloatingNav />
       </Flex>
     </ChakraProvider>
   );

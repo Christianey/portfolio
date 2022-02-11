@@ -32,16 +32,16 @@ const Nav = () => {
           },
         }}
       >
-        <Link href={"#about"}>
+        <Link href={"/about"}>
           <Text>ABOUT</Text>
         </Link>
-        <Link href={"#work"}>
+        <Link href={"/work"}>
           <Text>WORK</Text>
         </Link>
-        <Link href={"#skills"}>
+        <Link href={"/skills"}>
           <Text>SKILLS</Text>
         </Link>
-        <Link href={"#contact"}>
+        <Link href={"/contact"}>
           <Text>CONTACT</Text>
         </Link>
       </Flex>
