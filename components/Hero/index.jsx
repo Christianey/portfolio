@@ -8,6 +8,7 @@ const Hero = () => {
       py={[2, 2, 4, 6]}
       sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
       w={[null, null, null, "80%", "70%"]}
+      h={"90vh"}
     >
       <Text
         color={"white"}

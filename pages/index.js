@@ -8,7 +8,7 @@ import styles from "./Hand.module.css";
 
 export default function Home() {
   return (
-    <ScaleFade in={true} initialScale={0.7}>
+    <ScaleFade in={true} initialScale={0.5}>
       <Head>
         <title>Fegabyte Tech</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
