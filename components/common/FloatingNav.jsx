@@ -1,4 +1,8 @@
 import { Flex, Text } from "@chakra-ui/react";
+import { SiAboutdotme } from "react-icons/si";
+import { IoMdBriefcase } from "react-icons/io";
+import { GoTools } from "react-icons/go";
+import { MdPermContactCalendar } from "react-icons/md";
 import Link from "next/link";
 import styles from "../../pages/Hand.module.css";
 
@@ -8,9 +12,8 @@ const FloatingNav = () => {
       className={styles.floating}
       pos={"absolute"}
       bottom={10}
-      justify={"space-between"}
       shadow={"lg"}
-      borderRadius={"full"}
+      borderRadius={".5rem"}
       w={["90%", "70%", "80%", "50%"]}
       align={"center"}
       left={"50%"}
@@ -19,7 +22,7 @@ const FloatingNav = () => {
       bg={"cadetblue"}
       zIndex={30}
       sx={{
-        "& .chakra-text": {
+        "& .link-wrapper": {
           zIndex: 10,
           color: "darkBlue",
           cursor: "pointer",
@@ -39,7 +42,7 @@ const FloatingNav = () => {
         sx={{
           "&": {
             border: "2px solid transparent",
-            borderRadius: "full",
+            borderRadius: ".5rem",
             position: "absolute",
             left: 0,
             top: 0,
@@ -48,8 +51,6 @@ const FloatingNav = () => {
             h: "full",
             background:
               "linear-gradient(#0e0e1c21, #0e0e1c24) padding-box,linear-gradient(90deg, #00c95dbf, #3a91a082) border-box",
-            // background:
-            //   "linear-gradient(#0E0E1C, #0E0E1C) padding-box, linear-gradient(90deg, #00C95D, #3A91A0) border-box",
             borderImage: "linear-gradient(90deg, #00C95D, #3A91A0) 0",
             borderStyle: "solid",
             backdropFilter: "opacity(0.6)",
@@ -57,16 +58,52 @@ const FloatingNav = () => {
         }}
       ></Flex>
       <Link href={"#about"}>
-        <Text>ABOUT</Text>
+        <Flex
+          className="link-wrapper"
+          direction="column"
+          gridGap={2.5}
+          flexBasis={"calc(100% / 4)"}
+          align="center"
+        >
+          <SiAboutdotme color="white" size={"1.5rem"} />
+          <Text>ABOUT</Text>
+        </Flex>
       </Link>
       <Link href={"#work"}>
-        <Text>WORK</Text>
+        <Flex
+          className="link-wrapper"
+          direction="column"
+          gridGap={2.5}
+          flexBasis={"calc(100% / 4)"}
+          align="center"
+        >
+          <IoMdBriefcase color="white" size={"1.5rem"} />
+          <Text>WORK</Text>
+        </Flex>
       </Link>
       <Link href={"#skills"}>
-        <Text>SKILLS</Text>
+        <Flex
+          className="link-wrapper"
+          direction="column"
+          gridGap={2.5}
+          flexBasis={"calc(100% / 4)"}
+          align="center"
+        >
+          <GoTools color="white" size={"1.5rem"} />
+          <Text>SKILLS</Text>
+        </Flex>
       </Link>
       <Link href={"#contact"}>
-        <Text>CONTACT</Text>
+        <Flex
+          className="link-wrapper"
+          direction="column"
+          gridGap={2.5}
+          flexBasis={"calc(100% / 4)"}
+          align="center"
+        >
+          <MdPermContactCalendar color="white" size={"1.5rem"} />
+          <Text>CONTACT</Text>
+        </Flex>
       </Link>
     </Flex>
   );
