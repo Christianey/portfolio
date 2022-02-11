@@ -17,6 +17,7 @@ const FloatingNav = () => {
       transform={"translate(-50%, 0)"}
       border={"thin solid rgba(255,255,255, 0.2)"}
       bg={"cadetblue"}
+      zIndex={30}
       sx={{
         "& .chakra-text": {
           zIndex: 10,
@@ -24,8 +25,9 @@ const FloatingNav = () => {
           cursor: "pointer",
           lineHeight: "initial",
           fontWeight: "bold",
-          px: 6,
-          py: 4,
+          px: [2, 2, 4, 6],
+          py: [2, 3, 4, 4],
+          fontSize: [".8rem", "1rem", "1rem", "1rem"],
           _notLast: {
             borderRight: "1px solid rgba(255,255,255, .1)",
             paddingRight: "1rem",

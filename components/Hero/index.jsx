@@ -28,7 +28,7 @@ const Hero = () => {
             "-webkit-text-fill-color": "transparent",
           },
         }}
-        fontSize={["3.5rem", "6rem", "8rem", "10rem"]}
+        fontSize={["4.3rem", "6rem", "8rem", "10rem"]}
         ml={["-.3rem", "-0.5rem", "-1rem", "-1rem"]}
         pos={"relative"}
         zIndex={7}
@@ -37,7 +37,6 @@ const Hero = () => {
       </Text>
       <Text
         pos={"relative"}
-        zIndex={8}
         zIndex={5}
         color={"white"}
         textAlign={"justify"}
