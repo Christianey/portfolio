@@ -28,9 +28,17 @@ const Hero = () => {
             "&": {
               "-webkit-background-clip": "text",
               "-webkit-text-fill-color": "transparent",
+              "@media screen and (min-width: 360px)": {
+                fontSize: "4.2rem",
+              },
             },
           }}
-          fontSize={["3.6rem", "6rem", "8rem", "9.5rem"]}
+          fontSize={[
+            "3.5rem ",
+            "6rem !important",
+            "8rem !important",
+            "9.5rem !important",
+          ]}
           ml={["-.3rem", "-0.5rem", "-1rem", "-1rem"]}
           pos={"relative"}
           zIndex={7}
