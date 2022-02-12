@@ -13,7 +13,6 @@ const Nav = () => {
       sx={{ backdropFilter: "blur(30px)" }}
       shadow={"lg"}
       h={"10vh"}
-      zIndex={"10"}
       pos={"fixed"}
       zIndex={"55"}
       align={"center"}
@@ -22,7 +21,9 @@ const Nav = () => {
       borderBottom={"1px solid rgba(255,255,255, .3)"}
     >
       <Link href={"/"}>
-        <RiHomeLine size="2rem" color="white" />
+        <a>
+          <RiHomeLine size="2rem" color="white" />
+        </a>
       </Link>
       <Flex
         as="nav"
