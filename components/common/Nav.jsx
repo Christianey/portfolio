@@ -14,9 +14,12 @@ const Nav = () => {
       shadow={"lg"}
       h={"10vh"}
       zIndex={"10"}
-      pos={"sticky"}
+      pos={"fixed"}
+      zIndex={"55"}
       align={"center"}
+      w="full"
       top={0}
+      borderBottom={"1px solid rgba(255,255,255, .3)"}
     >
       <Link href={"/"}>
         <RiHomeLine size="2rem" color="white" />

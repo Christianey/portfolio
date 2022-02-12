@@ -28,7 +28,14 @@ import { BsGithub } from "react-icons/bs";
 
 const SkillIcon = ({ icon, description }) => {
   return (
-    <Flex direction={"column"} gridGap={2} maxWidth={"8rem"} align={"center"}>
+    <Flex
+      direction={"column"}
+      // px={[2, 4, 6, 10]}
+      py={[4, 4, 4, 6]}
+      gridGap={2}
+      maxWidth={"8rem"}
+      align={"center"}
+    >
       <Flex
         color={"primary"}
         align={"center"}
