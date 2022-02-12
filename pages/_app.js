@@ -11,13 +11,13 @@ function MyApp({ Component, pageProps }) {
         direction={"column"}
         pos={"relative"}
         w="full"
-        minH="100vh"
+        // minH="100vh"
         bg={"darkBlue"}
         overflow={"hidden"}
       >
         <Nav />
         <CircleGradients />
-        <Box zIndex={30} px={4} pt={"10vh"} pb={8}>
+        <Box zIndex={30} px={4} pt={"10vh"} pb={8} minHeight={"100vh"}>
           <Component {...pageProps} />
         </Box>
       </Flex>
