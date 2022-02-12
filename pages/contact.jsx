@@ -1,10 +1,10 @@
 import { Flex, Text } from "@chakra-ui/react";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
+import { HiMail } from "react-icons/hi";
 import { SiHashnode } from "react-icons/si";
 
 const Contacts = () => {
-  // return <Text color="white" fontSize={"2rem"}>{lorem5}</Text>;
   return (
     <Flex
       gridGap={6}
@@ -17,6 +17,7 @@ const Contacts = () => {
       <BsTwitter size={"5rem"} />
       <AiFillGithub size={"5rem"} />
       <SiHashnode size={"5rem"} />
+      <HiMail size={"5rem"} />
     </Flex>
   );
 };

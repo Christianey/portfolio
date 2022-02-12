@@ -14,10 +14,11 @@ import { FiTarget, FiFigma } from "react-icons/fi";
 import { MdDevices, MdTouchApp } from "react-icons/md";
 import {
   SiChakraui,
-  SiHashnode,
   SiJavascript,
   SiMaterialui,
   SiMongodb,
+  SiNextdotjs,
+  SiRedux,
 } from "react-icons/si";
 import { FaReact, FaSass } from "react-icons/fa";
 import { DiCss3, DiIllustrator, DiPhotoshop } from "react-icons/di";
@@ -97,14 +98,12 @@ const Skills = () => {
         <Tabs variant={"enclosed"} isFitted align="center">
           <TabList
             as={Flex}
-            // gridGap={4}
             borderBottomColor={"secondary"}
-            // color={"primary"}
-            // fontSize={"2rem"}
-            // fontWeight={"bold"}
             sx={{
               "& > button": {
+                _focus: { boxShadow: "none" },
                 color: "white",
+                outline: "none",
                 _selected: {
                   color: "primary",
                   fontWeight: "bold",
@@ -131,15 +130,16 @@ const Skills = () => {
               >
                 <ImHtmlFive size={"5rem"} />
                 <DiCss3 size={"5rem"} />
+                <FaSass size={"5rem"} />
                 <SiJavascript size={"5rem"} />
                 <FaReact size={"5rem"} />
-                {/* <SiHashnode size={"5rem"} /> */}
+                <SiRedux size={"5rem"} />
+                <SiNextdotjs size={"5rem"} />
                 <IoLogoNodejs size={"5rem"} />
                 <SiMongodb size={"5rem"} />
-                <FaSass size={"5rem"} />
                 <BsGithub size={"5rem"} />
-                <SiChakraui size={"5rem"} />
                 <SiMaterialui size={"5rem"} />
+                <SiChakraui size={"5rem"} />
               </Flex>
             </TabPanel>
             <TabPanel>
