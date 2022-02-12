@@ -18,7 +18,7 @@ const Nav = () => {
       align={"center"}
       w="full"
       top={0}
-      borderBottom={"1px solid rgba(255,255,255, .3)"}
+      borderBottom={"1px solid rgba(255,255,255, .1)"}
     >
       <Link href={"/"}>
         <a>
