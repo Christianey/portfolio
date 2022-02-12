@@ -1,28 +1,38 @@
 .hand {
-  animation: hand 2s linear 2s infinite alternate;
+  /* opacity: 0; */
+  transform: rotate(325deg);
+  animation: hand 2s forwards 2s infinite alternate;
   will-change: transform;
   backface-visibility: hidden;
+  transition: opacity 0.3s;
 }
 
 .floating {
-  animation: floating-nav 2s linear 2s infinite alternate;
+  /* opacity: 0; */
+  transform: translate(-50%, 10px);
+  animation: floating-nav 2s forwards 2s infinite alternate;
   will-change: transform;
   backface-visibility: hidden;
+  transition: opacity 0.3s;
 }
 
 @keyframes hand {
   from {
+    /* opacity: 0; */
     transform: rotate(325deg);
   }
   to {
+    /* opacity: 1; */
     transform: rotate(305deg);
   }
 }
 @keyframes floating-nav {
   from {
+    /* opacity: 0; */
     transform: translate(-50%, 10px);
   }
   to {
+    /* opacity: 1; */
     transform: translate(-50%, 0);
   }
 }

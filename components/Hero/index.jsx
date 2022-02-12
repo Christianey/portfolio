@@ -30,7 +30,7 @@ const Hero = () => {
               "-webkit-text-fill-color": "transparent",
             },
           }}
-          fontSize={["4.3rem", "6rem", "8rem", "10rem"]}
+          fontSize={["3.6rem", "6rem", "8rem", "9.5rem"]}
           ml={["-.3rem", "-0.5rem", "-1rem", "-1rem"]}
           pos={"relative"}
           zIndex={7}
