@@ -29,7 +29,7 @@ const Nav = () => {
         minW={"30%"}
         gridGap={4}
         sx={{
-          "& > .chakra-text": {
+          "& > a > .chakra-text": {
             fontSize: [".8rem", ".8rem", "1rem", "1rem"],
             _hover: {
               color: "primary",
