@@ -17,7 +17,13 @@ function MyApp({ Component, pageProps }) {
       >
         <Nav />
         <CircleGradients />
-        <Box zIndex={30} px={4} pt={"10vh"} pb={8} minHeight={"100vh"}>
+        <Box
+          zIndex={30}
+          px={4}
+          pt={["8vh", "10vh", "10vh", "10vh"]}
+          pb={8}
+          minHeight={"100vh"}
+        >
           <Component {...pageProps} />
         </Box>
       </Flex>

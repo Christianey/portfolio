@@ -12,7 +12,7 @@ const Nav = () => {
       bgColor="rgba(14,14,28, .5)"
       sx={{ backdropFilter: "blur(30px)" }}
       shadow={"lg"}
-      h={"10vh"}
+      h={["8vh", "10vh", "10vh", "10vh"]}
       pos={"fixed"}
       zIndex={"55"}
       align={"center"}
