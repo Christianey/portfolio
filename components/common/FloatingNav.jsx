@@ -11,7 +11,7 @@ const FloatingNav = () => {
     <Flex
       className={styles.floating}
       shadow={"lg"}
-      w={["90%", "70%", "80%", "50%"]}
+      w={["100%", "70%", "80%", "50%"]}
       zIndex={30}
       sx={{
         "& .link-wrapper": {
