@@ -30,7 +30,6 @@ const SkillIcon = ({ icon, description }) => {
   return (
     <Flex
       direction={"column"}
-      // px={[2, 4, 6, 10]}
       py={[4, 4, 4, 6]}
       gridGap={2}
       maxWidth={"8rem"}
