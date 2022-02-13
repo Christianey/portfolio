@@ -1,38 +1,53 @@
 .hand {
   /* opacity: 0; */
+  margin: 0;
+  bottom: 0;
+  right: 0;
   transform: rotate(325deg);
-  animation: hand 2s forwards 2s infinite alternate;
+  animation: fadein 2s ease-in, hand 2s forwards 0s infinite alternate;
   will-change: transform;
   backface-visibility: hidden;
-  transition: opacity 0.3s;
+  transition: all 0.1s ease-in;
 }
 
 .floating {
-  /* opacity: 0; */
+  position: absolute;
+  bottom: 2rem;
+  background: cadetblue;
+  border-radius: 0.5rem;
+  align-items: center;
+  left: 50%;
+  border: thin solid rgba(255, 255, 255, 0.2);
   transform: translate(-50%, 10px);
-  animation: floating-nav 2s forwards 2s infinite alternate;
+  animation: fadein 2s ease, floating-nav 2s forwards 0s infinite alternate;
   will-change: transform;
   backface-visibility: hidden;
-  transition: opacity 0.3s;
+  transition: all 0.1s ease-in;
 }
 
 @keyframes hand {
   from {
-    /* opacity: 0; */
     transform: rotate(325deg);
   }
   to {
-    /* opacity: 1; */
     transform: rotate(305deg);
   }
 }
+
 @keyframes floating-nav {
   from {
-    /* opacity: 0; */
     transform: translate(-50%, 10px);
   }
   to {
-    /* opacity: 1; */
     transform: translate(-50%, 0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

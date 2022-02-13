@@ -92,7 +92,7 @@ const WorkCard = () => {
           <Text>REACTJS</Text>
           <Text>CHAKRA-UI</Text>
         </Flex>
-        <Flex gridGap={3}>
+        <Flex gridGap={3} justify={"flex-end"}>
           <AiFillGithub size={"1.5rem"} />
           <HiOutlineExternalLink size={"1.5rem"} />
         </Flex>

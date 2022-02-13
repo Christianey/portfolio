@@ -83,18 +83,7 @@ const Hero = () => {
         h={["50%", "50%", "40%", "70%"]}
         pos={"absolute"}
         zIndex={20}
-        margin={0}
-        bottom={0}
-        right={0}
         className={styles.hand}
-        sx={{
-          "&": {
-            "@keyframes example": {
-              from: { backgroundColor: "red" },
-              to: { backgroundColor: "yellow" },
-            },
-          },
-        }}
       >
         <Image src="/hand.png" />
       </Flex>

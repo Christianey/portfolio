@@ -10,16 +10,8 @@ const FloatingNav = () => {
   return (
     <Flex
       className={styles.floating}
-      pos={"absolute"}
-      bottom={10}
       shadow={"lg"}
-      borderRadius={".5rem"}
       w={["90%", "70%", "80%", "50%"]}
-      align={"center"}
-      left={"50%"}
-      transform={"translate(-50%, 0)"}
-      border={"thin solid rgba(255,255,255, 0.2)"}
-      bg={"cadetblue"}
       zIndex={30}
       sx={{
         "& .link-wrapper": {
