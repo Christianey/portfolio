@@ -20,6 +20,8 @@ import {
   SiMongodb,
   SiNextdotjs,
   SiRedux,
+  SiTailwindcss,
+  SiExpress,
 } from "react-icons/si";
 import { FaReact, FaSass } from "react-icons/fa";
 import { DiCss3, DiIllustrator, DiPhotoshop } from "react-icons/di";
@@ -142,8 +144,10 @@ const Skills = () => {
                 <SiRedux size={"5rem"} />
                 <SiNextdotjs size={"5rem"} />
                 <IoLogoNodejs size={"5rem"} />
+                <SiExpress size={"5rem"} />
                 <SiMongodb size={"5rem"} />
                 <BsGithub size={"5rem"} />
+                <SiTailwindcss size={"5rem"} />
                 <SiMaterialui size={"5rem"} />
                 <SiChakraui size={"5rem"} />
               </Flex>
