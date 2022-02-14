@@ -5,15 +5,6 @@ const About = () => {
     <Slide direction="top" in={true} style={{ position: "static" }}>
       <Box maxWidth="50rem" mx="auto">
         <Text
-          my={4}
-          fontSize={"1.5rem"}
-          color={"white"}
-          fontWeight={"bold"}
-          textAlign={"center"}
-        >
-          ABOUT
-        </Text>
-        <Text
           // pos={"relative"}
           // zIndex={5}
           color={"white"}

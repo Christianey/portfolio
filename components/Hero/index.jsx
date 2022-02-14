@@ -8,7 +8,8 @@ const Hero = () => {
         px={[2, 4, 6, 10]}
         py={[4, 4, 4, 6]}
         sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
-        w={[null, null, null, "80%", "70%"]}
+        maxW={[null, null, null, "80%", "80rem"]}
+        mx="auto"
         h={"90vh"}
       >
         <Text
