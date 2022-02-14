@@ -76,7 +76,7 @@ const Hero = () => {
           intern and freelancer. I have a passion for good user experience and
           mobile responsiveness. I have a knack for learning and problem solving
           using the right tools and up to date technology. Goal-oriented and
-          self-driven.
+          self-driven. <br /> Available for Frontend roles.
         </Text>
       </Flex>
       <Flex
