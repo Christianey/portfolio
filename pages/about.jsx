@@ -25,15 +25,17 @@ const About = () => {
           intern and freelancer. I have a passion for good user experience and
           mobile responsiveness. I have a knack for learning and problem solving
           using the right tools and up to date technology. Goal-oriented and
-          self-driven. <br /> Developer with an eye for design backed by
-          experience as a design intern and freelancer. I have a passion for
-          good user experience and mobile responsiveness. I have a knack for
-          learning and problem solving using the right tools and up to date
-          technology. Goal-oriented and self-driven. <br /> Developer with an
-          eye for design backed by experience as a design intern and freelancer.
-          I have a passion for good user experience and mobile responsiveness. I
-          have a knack for learning and problem solving using the right tools
-          and up to date technology. Goal-oriented and self-driven.
+          self-driven. <br />
+          Developer with an eye for design backed by experience as a design
+          intern and freelancer. I have a passion for good user experience and
+          mobile responsiveness. I have a knack for learning and problem solving
+          using the right tools and up to date technology. Goal-oriented and
+          self-driven. <br />
+          Developer with an eye for design backed by experience as a design
+          intern and freelancer. I have a passion for good user experience and
+          mobile responsiveness. I have a knack for learning and problem solving
+          using the right tools and up to date technology. Goal-oriented and
+          self-driven.
         </Text>
       </Box>
     </Slide>
