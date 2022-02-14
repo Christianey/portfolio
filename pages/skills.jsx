@@ -70,7 +70,6 @@ const Skills = () => {
   return (
     <Slide direction="right" in={true} style={{ position: "static" }}>
       <Flex
-        gridGap={4}
         maxW={"50rem"}
         justify={"space-around"}
         flexWrap={"wrap"}
