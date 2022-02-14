@@ -31,26 +31,42 @@ const Contacts = () => {
       >
         <Flex>
           <AiFillGithub />
-          <a href="https://github.com/Christianey" target="_blank">
+          <a
+            href="https://github.com/Christianey"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Text>eyubechristian@gmail.com</Text>
           </a>
         </Flex>
         <Flex>
           <AiFillLinkedin />
-          <a href="https://github.com/Christianey" target="_blank">
+          <a
+            href="https://github.com/Christianey"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Text>eyubechristian@gmail.com</Text>
           </a>
         </Flex>
         <Flex>
           <BsTwitter />
-          <a href="https://github.com/Christianey" target="_blank">
+          <a
+            href="https://github.com/Christianey"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Text>eyubechristian@gmail.com</Text>
           </a>
         </Flex>
 
         <Flex>
           <SiHashnode />
-          <a href="https://github.com/Christianey" target="_blank">
+          <a
+            href="https://github.com/Christianey"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Text>eyubechristian@gmail.com</Text>
           </a>
         </Flex>
@@ -60,6 +76,7 @@ const Contacts = () => {
             // href="mailto:eyubechristian@gmail.com"
             href="https://mail.google.com/mail/u/0/#compose"
             target="_blank"
+            rel="noreferrer"
           >
             <Text>eyubechristian@gmail.com</Text>
           </a>
