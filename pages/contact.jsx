@@ -9,12 +9,13 @@ const Contacts = () => {
     <Slide direction="bottom" in={true} style={{ position: "static" }}>
       <Box display="grid" placeContent="center" p={8}>
         <Grid
-          gridGap={6}
+          columnGap={[2, 4, 4, 6]}
+          rowGap={6}
           sx={{
             "&": {
               " .chakra-text": {
                 color: "white",
-                fontSize: ["1rem", "1rem", "1rem", "1.5rem"],
+                fontSize: ["1.2rem", "1.5rem", "1.5rem", "2rem"],
               },
               svg: { color: "primary", width: "3rem", height: "3rem" },
             },
