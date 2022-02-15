@@ -59,7 +59,7 @@ const Contacts = () => {
           </a>
           <SiGmail className={styles.skills} />
           <a
-            href="https://mail.google.com/mail/u/0/#compose"
+            href="mailto:eyubechristian@gmail.com"
             target="_blank"
             rel="noreferrer"
           >

@@ -65,17 +65,15 @@ const WorkCard = () => {
         <Text
           mb={2}
           textTransform={"uppercase"}
-          borderBottom={"3px solid"}
-          borderBottomColor={"primary"}
           alignSelf={"start"}
-          fontSize={"1.2rem"}
-          fontWeight={"bold"}
+          fontSize={"1.3rem"}
+          fontWeight={"bolder"}
           color={"primary"}
         >
           {" "}
           Simple Checkout Page
         </Text>
-        <Text mb={4} textAlign={"justify"} color={"#7edbeb"}>
+        <Text mb={4} textAlign={"justify"} color={"white"}>
           A responsive single page webiste with functional form that verifies
           Debit card input and gives appropriate error for invalid errors for
           each input field respectively.
@@ -85,7 +83,7 @@ const WorkCard = () => {
           mb={4}
           sx={{
             "& > .chakra-text": {
-              color: "#7edbeb",
+              color: "secondary",
             },
           }}
         >

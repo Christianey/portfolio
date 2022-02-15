@@ -1,4 +1,4 @@
-import { Box, Flex, Slide } from "@chakra-ui/react";
+import { Flex, Slide } from "@chakra-ui/react";
 import WorkCard from "../components/work/WorkCard";
 
 const Work = () => {
