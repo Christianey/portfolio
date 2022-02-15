@@ -1,7 +1,7 @@
 import { Grid, Slide, Text, Box } from "@chakra-ui/react";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
-import { SiHashnode, SiGmail } from "react-icons/si";
+import { SiHashnode, SiGmail, SiWhatsapp } from "react-icons/si";
 import styles from "./Hand.module.css";
 
 const Contacts = () => {
@@ -60,6 +60,14 @@ const Contacts = () => {
           <SiGmail className={styles.skills} />
           <a
             href="mailto:eyubechristian@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Text className={styles.skills}>eyubechristian@gmail.com</Text>
+          </a>
+          <SiWhatsapp className={styles.skills} />
+          <a
+            href="https://api.whatsapp.com/send?phone=2349071009474"
             target="_blank"
             rel="noreferrer"
           >

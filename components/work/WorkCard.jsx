@@ -80,7 +80,6 @@ const WorkCard = () => {
         </Text>
         <Flex
           gridGap={3}
-          mb={4}
           sx={{
             "& > .chakra-text": {
               color: "secondary",
