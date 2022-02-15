@@ -7,10 +7,9 @@ import styles from "./Hand.module.css";
 const Contacts = () => {
   return (
     <Slide direction="bottom" in={true} style={{ position: "static" }}>
-      <Box display="grid" placeContent="center" h="80vh">
+      <Box display="grid" placeContent="center" p={8}>
         <Grid
           gridGap={6}
-          py={4}
           sx={{
             "&": {
               " .chakra-text": {
