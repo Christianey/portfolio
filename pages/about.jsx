@@ -56,6 +56,7 @@ const About = () => {
                 "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
               }
               target={"_blank"}
+              rel="noreferrer"
               download
             >
               <Text mx="auto">Download Resume</Text>
