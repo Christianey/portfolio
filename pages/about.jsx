@@ -30,8 +30,8 @@ const About = () => {
               fontStyle={"italic"}
               fontSize={["1.2rem", "1.2rem", "1.5rem", "1.5rem", "2.5rem"]}
             >
-              “You'll never know everything about anything, <br /> especially
-              something you love.” <br />
+              “You&apos;ll never know everything about anything, <br />{" "}
+              especially something you love.” <br />
               <Text as="span" fontSize={"sm"}>
                 -Julia Child
               </Text>
@@ -40,15 +40,15 @@ const About = () => {
           <Text fontSize={["1rem", "1rem", "1rem", "1.3rem", "2rem"]}>
             My name is Eyube Christian, I am a web developer and graphic
             designer who specializes in building functional, interactive and
-            dynamic websites and applications. I'm passionate about making
+            dynamic websites and applications. I&apos;m passionate about making
             user-centric and aesthetically pleasing websites. <br /> <br />{" "}
             Being a self-taught graphic designer and web-developer, I really
             love learning new things and trying on new technologies. Over time,
-            I've been able to learn and create designs and websites with tools
-            like Adobe Illustrator, Adobe Photoshop, Coreldraw, HTML, CSS/Sass,
-            Javascript, React JS, NextJS, NodeJS, MongoDB etc. <br /> <br />{" "}
-            Asides programming and design, I love listening to music, watching
-            football and gaming.
+            I&apos;ve been able to learn and create designs and websites with
+            tools like Adobe Illustrator, Adobe Photoshop, Coreldraw, HTML,
+            CSS/Sass, Javascript, React JS, NextJS, NodeJS, MongoDB etc. <br />{" "}
+            <br /> Asides programming and design, I love listening to music,
+            watching football and gaming.
           </Text>
         </Box>
       </Box>
