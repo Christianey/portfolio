@@ -72,11 +72,11 @@ const Hero = () => {
           }}
           fontSize={["1rem", "1rem", "1rem", "1.3rem"]}
         >
-          Developer with an eye for design backed by experience as a design
-          intern and freelancer. I have a passion for good user experience and
-          mobile responsiveness. I have a knack for learning and problem solving
-          using the right tools and up to date technology. Goal-oriented and
-          self-driven.
+          I am a web developer with an eye for design backed by experience as a
+          graphic designer. I have a passion for good user experience and mobile
+          responsiveness. I have a knack for learning and problem solving using
+          the right tools and up to date technology. <br />I am available for
+          Frontend developer roles.
         </Text>
       </Flex>
       <Flex

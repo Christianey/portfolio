@@ -28,7 +28,7 @@ const About = () => {
               flexBasis={["100%", "100%", "auto", "auto"]}
               textAlign={["center", "center", "right", "right"]}
               fontStyle={"italic"}
-              fontSize={["1.2rem", "1.2rem", "1.5rem", "1.5rem", "2.5rem"]}
+              fontSize={["1.2rem", "1.2rem", "1.5rem", "1.5rem", "1.6rem"]}
             >
               “You&apos;ll never know everything about anything, <br />{" "}
               especially something you love.” <br />
@@ -50,6 +50,17 @@ const About = () => {
             <br /> Asides programming and design, I love listening to music,
             watching football and gaming.
           </Text>
+          <Flex justify={"center"} color={"primary"} my={4}>
+            <a
+              href={
+                "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
+              }
+              target={"_blank"}
+              download
+            >
+              <Text mx="auto">Download Resume</Text>
+            </a>
+          </Flex>
         </Box>
       </Box>
     </Slide>
