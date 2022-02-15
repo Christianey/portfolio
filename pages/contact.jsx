@@ -71,7 +71,7 @@ const Contacts = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Text className={styles.skills}>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>+2349071009474</Text>
           </a>
         </Grid>
       </Box>
