@@ -24,6 +24,10 @@
   transition: all 0.1s ease-in;
 }
 
+.skills {
+  animation: skills 2s forwards 0s infinite alternate;
+}
+
 @keyframes hand {
   from {
     transform: rotate(325deg);
@@ -39,6 +43,14 @@
   }
   to {
     transform: translate(-50%, 0);
+  }
+}
+@keyframes skills {
+  from {
+    transform: translateY(-3px);
+  }
+  to {
+    transform: translateY(3px);
   }
 }
 

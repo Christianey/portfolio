@@ -8,8 +8,7 @@ const Hero = () => {
         px={[2, 4, 6, 10]}
         py={[4, 4, 4, 6]}
         sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
-        maxW={[null, null, null, "80%", "80rem"]}
-        mx={[null, null, null, null, "auto"]}
+        w={[null, null, null, "80%", "70%"]}
         h={"90vh"}
       >
         <Text
@@ -71,13 +70,13 @@ const Hero = () => {
             backgroundSize: "contain",
             filter: "blur(20px) opacity(0.1)",
           }}
-          fontSize={["1rem", "1rem", "1rem", "1.3rem", "2rem"]}
+          fontSize={["1rem", "1rem", "1rem", "1.3rem"]}
         >
           Developer with an eye for design backed by experience as a design
           intern and freelancer. I have a passion for good user experience and
           mobile responsiveness. I have a knack for learning and problem solving
           using the right tools and up to date technology. Goal-oriented and
-          self-driven. <br /> Available for Frontend roles.
+          self-driven.
         </Text>
       </Flex>
       <Flex

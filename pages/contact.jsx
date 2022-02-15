@@ -1,87 +1,72 @@
-import { Flex, Slide, Text } from "@chakra-ui/react";
+import { Grid, Slide, Text, Box } from "@chakra-ui/react";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { SiHashnode, SiGmail } from "react-icons/si";
+import styles from "./Hand.module.css";
 
 const Contacts = () => {
   return (
     <Slide direction="bottom" in={true} style={{ position: "static" }}>
-      <Flex
-        gridGap={6}
-        py={4}
-        sx={{
-          "&": {
-            "> div": {
-              alignItems: "center",
-              gridGap: 4,
-              justifyContent: "center",
+      <Box display="grid" placeContent="center" h="80vh">
+        <Grid
+          gridGap={6}
+          py={4}
+          sx={{
+            "&": {
+              " .chakra-text": {
+                color: "white",
+                fontSize: ["1rem", "1rem", "1rem", "1.5rem"],
+              },
+              svg: { color: "primary", width: "3rem", height: "3rem" },
             },
-            " .chakra-text": {
-              color: "white",
-              fontSize: ["1rem", "1rem", "1rem", "1.5rem"],
-            },
-            svg: { color: "primary", width: "3rem", height: "3rem" },
-          },
-        }}
-        flexWrap={["1rem", "1rem", "1rem", "wrap"]}
-        justify={"space-around"}
-        maxWidth="50rem"
-        mx="auto"
-        direction={"column"}
-      >
-        <Flex>
-          <AiFillGithub />
+          }}
+          maxWidth="50rem"
+          templateColumns={"3rem 1fr"}
+          templateRows={"3rem 1fr"}
+          alignItems="center"
+        >
+          <AiFillGithub className={styles.skills} />
           <a
             href="https://github.com/Christianey"
             target="_blank"
             rel="noreferrer"
           >
-            <Text>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>@Christianey</Text>
           </a>
-        </Flex>
-        <Flex>
-          <AiFillLinkedin />
+          <AiFillLinkedin className={styles.skills} />
           <a
-            href="https://github.com/Christianey"
+            href="https://www.linkedin.com/in/christian-eyube/"
             target="_blank"
             rel="noreferrer"
           >
-            <Text>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>@christian-eyube</Text>
           </a>
-        </Flex>
-        <Flex>
-          <BsTwitter />
+          <BsTwitter className={styles.skills} />
           <a
-            href="https://github.com/Christianey"
+            href="https://twitter.com/EyubeChristian"
             target="_blank"
             rel="noreferrer"
           >
-            <Text>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>@EyubeChristian</Text>
           </a>
-        </Flex>
-
-        <Flex>
-          <SiHashnode />
+          <SiHashnode className={styles.skills} />
           <a
-            href="https://github.com/Christianey"
+            href="https://fegabyte.hashnode.dev/"
             target="_blank"
             rel="noreferrer"
           >
-            <Text>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>@fegabyte</Text>
           </a>
-        </Flex>
-        <Flex>
-          <SiGmail />
+          <SiGmail className={styles.skills} />
           <a
-            // href="mailto:eyubechristian@gmail.com"
             href="https://mail.google.com/mail/u/0/#compose"
             target="_blank"
             rel="noreferrer"
           >
-            <Text>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>eyubechristian@gmail.com</Text>
           </a>
-        </Flex>
-      </Flex>
+        </Grid>
+      </Box>
     </Slide>
   );
 };
