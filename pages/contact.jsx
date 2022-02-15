@@ -9,7 +9,7 @@ const Contacts = () => {
     <Slide direction="bottom" in={true} style={{ position: "static" }}>
       <Box display="grid" placeContent="center" p={8}>
         <Grid
-          columnGap={[2, 4, 4, 6]}
+          columnGap={[4, 4, 4, 6]}
           rowGap={6}
           sx={{
             "&": {
