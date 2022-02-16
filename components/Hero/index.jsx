@@ -1,5 +1,7 @@
-import { Flex, Text, Image } from "@chakra-ui/react";
+import { Flex, Text, Image, chakra } from "@chakra-ui/react";
 import styles from "../../pages/Hand.module.css";
+import Img from "next/image";
+const NewImage = chakra(Img);
 const Hero = () => {
   return (
     <>
@@ -59,19 +61,15 @@ const Hero = () => {
           backdropBlur={"5px"}
           border={"1px solid rgba(255, 255, 255, 0.3)"}
           w="full"
-          _before={{
-            content: "''",
-            w: "full",
-            h: "full",
-            pos: "absolute",
-            bg: "url(bg.jpeg)",
-            left: 0,
-            top: 0,
-            backgroundSize: "contain",
-            filter: "blur(20px) opacity(0.1)",
-          }}
           fontSize={["1rem", "1rem", "1rem", "1.3rem"]}
         >
+          <NewImage
+            src="/bg.jpeg"
+            width={"100%"}
+            height={"100%"}
+            layout="fill"
+            filter={"blur(20px) opacity(0.1)"}
+          />
           I am a web developer with an eye for design backed by experience as a
           graphic designer. I have a passion for good user experience and mobile
           responsiveness. I have a knack for learning and problem solving using
