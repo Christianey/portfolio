@@ -1,7 +1,7 @@
-import { Flex, Text, Image, chakra } from "@chakra-ui/react";
+import { Flex, Text, Image, Box } from "@chakra-ui/react";
 import styles from "../../pages/Hand.module.css";
 import Img from "next/image";
-const NewImage = chakra(Img);
+
 const Hero = () => {
   return (
     <>
@@ -47,7 +47,7 @@ const Hero = () => {
         >
           Fegabyte
         </Text>
-        <Text
+        <Box
           pos={"relative"}
           zIndex={5}
           color={"white"}
@@ -63,19 +63,24 @@ const Hero = () => {
           w="full"
           fontSize={["1rem", "1rem", "1rem", "1.3rem"]}
         >
-          <NewImage
-            src="/bg.jpeg"
-            width={"100%"}
-            height={"100%"}
-            layout="fill"
+          <Flex
+            w="100%"
+            height="100%"
             filter={"blur(20px) opacity(0.1)"}
-          />
-          I am a web developer with an eye for design backed by experience as a
-          graphic designer. I have a passion for good user experience and mobile
-          responsiveness. I have a knack for learning and problem solving using
-          the right tools and up to date technology. <br />I am available for
-          Frontend developer roles.
-        </Text>
+            pos={"absolute"}
+            top={0}
+            left={0}
+          >
+            <Img src="/bg.jpeg" layout="fill" width={"100%"} height={"100%"} />
+          </Flex>
+          <Text>
+            I am a web developer with an eye for design backed by experience as
+            a graphic designer. I have a passion for good user experience and
+            mobile responsiveness. I have a knack for learning and problem
+            solving using the right tools and up to date technology. <br />I am
+            available for Frontend developer roles.
+          </Text>
+        </Box>
       </Flex>
       <Flex
         h={["50%", "50%", "40%", "70%"]}
