@@ -1,5 +1,5 @@
-import { Flex, Text } from "@chakra-ui/react";
-import { RiHomeLine } from "react-icons/ri";
+import { Flex, Text, Box } from "@chakra-ui/react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Nav = () => {
@@ -20,11 +20,22 @@ const Nav = () => {
       top={0}
       borderBottom={"1px solid rgba(255,255,255, .1)"}
     >
-      <Link href={"/"}>
-        <a>
-          <RiHomeLine size="2rem" color="white" />
-        </a>
-      </Link>
+      <Box
+        boxSize={["2rem", "2.5rem", "2.5rem", "2.5rem"]}
+        position={"relative"}
+      >
+        <Link href={"/"}>
+          <a>
+            <Image
+              src="/Asset 1.svg"
+              width={"100%"}
+              height={"100%"}
+              layout="fill"
+            />
+          </a>
+        </Link>
+      </Box>
+      {/* <RiHomeLine size="2rem" color="white" /> */}
       <Flex
         as="nav"
         justify={"space-between"}

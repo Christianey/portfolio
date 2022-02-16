@@ -59,11 +59,11 @@ const Contacts = () => {
           </a>
           <SiGmail className={styles.skills} />
           <a
-            href="mailto:eyubechristian@gmail.com"
+            href="mailto:fegabytech@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            <Text className={styles.skills}>eyubechristian@gmail.com</Text>
+            <Text className={styles.skills}>fegabytech@gmail.com</Text>
           </a>
           <SiWhatsapp className={styles.skills} />
           <a
