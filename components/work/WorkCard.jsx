@@ -13,6 +13,9 @@ const WorkCard = () => {
       wrap={"wrap"}
       w="100%"
       justify={"space-between"}
+      borderRadius="lg"
+      boxShadow="lg"
+      p={4}
       sx={{
         "&": {
           " > div": {
