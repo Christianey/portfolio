@@ -1,4 +1,4 @@
-import { Slide, Flex, Text, Box, Circle } from "@chakra-ui/react";
+import { Slide, Flex, Text, Box, Avatar } from "@chakra-ui/react";
 
 const About = () => {
   return (
@@ -16,14 +16,16 @@ const About = () => {
           w="full"
         >
           <Flex justify={"space-between"} align="center" mb={4} wrap={"wrap"}>
-            <Circle
+            <Avatar
               mx={["auto", "auto", 0, 0]}
               mb={[4, 4, 0, 0]}
-              size={["8rem", "8rem", "8rem", "10rem"]}
+              boxSize={["8rem", "8rem", "8rem", "10rem"]}
               bg="darkBlue"
               border={"3px solid"}
               borderColor={"primary"}
-            ></Circle>
+              // src={"/fegabyte.png"}
+              ima
+            />
             <Text
               flexBasis={["100%", "100%", "auto", "auto"]}
               textAlign={["center", "center", "right", "right"]}
