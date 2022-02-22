@@ -89,7 +89,7 @@ const WorkCard = ({
         </Text>
         <Flex
           mt="auto"
-          gridGap={[1, 3, 3, 3]}
+          gridGap={[2, 3, 3, 3]}
           wrap="wrap"
           sx={{
             "& > .chakra-text": {
