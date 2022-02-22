@@ -43,7 +43,7 @@ const Work = () => {
           websiteLink={"https://landing-lights.netlify.app"}
         />
       </Flex>
-      <Text fontStyle="italic" textAlign={"center"}>
+      <Text fontStyle="italic" textAlign={"center"} color={"white"}>
         NB: I&apos;ve also worked on other amazing projects and applications
         which are available on request.
       </Text>
