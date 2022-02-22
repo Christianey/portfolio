@@ -55,6 +55,9 @@ const Nav = () => {
           icon={<HiMenu color="white" size="1.5rem" />}
           bg="transparent"
           onClick={onOpen}
+          _focus={{ boxShadow: "none" }}
+          _hover={{ bg: "transparent" }}
+          _active={{ bg: "transparent" }}
         />
 
         <Modal isOpen={isOpen} onClose={onClose} isCentered size={"xs"}>
