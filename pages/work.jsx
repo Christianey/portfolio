@@ -20,7 +20,7 @@ const Work = () => {
           tools={["Chakra UI", "ReactJS"]}
           imageLink={"/landing-lights.png"}
           githubLink={"https://github.com/Christianey/landing-light.git"}
-          websiteLink={"https://landing-light.netlify.app"}
+          websiteLink={"https://landing-lights.netlify.app"}
         />
         {/* <WorkCard />
         <WorkCard />
