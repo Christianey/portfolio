@@ -24,7 +24,7 @@ const Work = () => {
         />
         <WorkCard
           description={
-            "A responsive single page webiste with functional form that verifies Debit card input and gives appropriate error for invalid errors for each input field respectively."
+            "An instagram clone. Still in progress. Registration and login completed."
           }
           title={"Pixta - Instagram Clone"}
           tools={["ReactJS", "Tailwind", "Express", "MongoDB"]}
@@ -34,9 +34,9 @@ const Work = () => {
         />
         <WorkCard
           description={
-            "An instagram clone. Still in progress. Registration and login completed."
+            "A responsive single page webiste with functional form that verifies Debit card input and gives appropriate error for invalid errors for each input field respectively."
           }
-          title={"Pixta Social"}
+          title={"Simple Checkout Page"}
           tools={["ReactJS", "Chakra UI"]}
           imageLink={"/landing-lights.png"}
           githubLink={"https://github.com/Christianey/landing-light.git"}
