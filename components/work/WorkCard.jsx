@@ -21,6 +21,7 @@ const WorkCard = ({
       justify={"space-between"}
       borderRadius="lg"
       boxShadow="xl"
+      minHeight="15rem"
       p={4}
       sx={{
         "&": {
@@ -70,7 +71,7 @@ const WorkCard = ({
           />
         </Flex>
       </Box>
-      <Flex direction={"column"}>
+      <Flex direction={"column"} maxWidth="100%">
         <Text
           mb={2}
           textTransform={"uppercase"}
@@ -78,6 +79,7 @@ const WorkCard = ({
           fontSize={"1.3rem"}
           fontWeight={"bolder"}
           color={"primary"}
+          textAlign={["center", "left", "left", "left"]}
         >
           {" "}
           {title}
@@ -86,11 +88,14 @@ const WorkCard = ({
           {description}
         </Text>
         <Flex
-          gridGap={3}
+          mt="auto"
+          gridGap={[1, 3, 3, 3]}
+          wrap="wrap"
           sx={{
             "& > .chakra-text": {
               color: "secondary",
               textTransform: "uppercase",
+              fontSize: [".8rem", "1rem", "1rem", "1rem"],
             },
           }}
         >
