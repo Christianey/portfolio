@@ -94,8 +94,8 @@ const WorkCard = ({
             },
           }}
         >
-          {tools.map((tool) => (
-            <Text>{tool}</Text>
+          {tools.map((tool, index) => (
+            <Text key={index}>{tool}</Text>
           ))}
         </Flex>
         <Flex gridGap={3} justify={"flex-end"}>
