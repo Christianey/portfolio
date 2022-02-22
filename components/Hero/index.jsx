@@ -71,7 +71,7 @@ const Hero = () => {
             top={0}
             left={0}
           >
-            <Img src="/bg.jpeg" layout="fill" width={"100%"} height={"100%"} />
+            <Img src="/bg.jpeg" layout="fill" />
           </Flex>
           <Text>
             I am a web developer with an eye for design backed by experience as
