@@ -17,7 +17,7 @@ const Work = () => {
             "A web application for uploading and downloading books in pdf format."
           }
           title={"Unibook E-library App"}
-          tools={["ReactJS", "Material UI", "NodeJS", "Express", "MongoDB"]}
+          tools={["ReactJS", "MUI", "Express", "MongoDB"]}
           imageLink={"/unibook.png"}
           githubLink={"https://github.com/Christianey/e_library_app.git"}
           websiteLink={"https://unibook.netlify.app"}
@@ -27,7 +27,7 @@ const Work = () => {
             "A responsive single page webiste with functional form that verifies Debit card input and gives appropriate error for invalid errors for each input field respectively."
           }
           title={"Pixta - Instagram Clone"}
-          tools={["ReactJS", "Tailwind CSS", "NodeJS", "Express", "MongoDB"]}
+          tools={["ReactJS", "Tailwind", "Express", "MongoDB"]}
           imageLink={"/pixta.png"}
           githubLink={"https://github.com/Christianey/pixta_social.git"}
           websiteLink={"https://pixta.netlify.app"}
