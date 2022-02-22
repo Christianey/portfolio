@@ -44,8 +44,8 @@ const Work = () => {
         />
       </Flex>
       <Text fontStyle="italic" textAlign={"center"}>
-        NB: I've also worked on other amazing projects and applications which
-        are available on request.
+        NB: I&apos;ve also worked on other amazing projects and applications
+        which are available on request.
       </Text>
     </Slide>
   );
