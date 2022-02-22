@@ -1,4 +1,4 @@
-import { Flex, Slide } from "@chakra-ui/react";
+import { Flex, Slide, Text } from "@chakra-ui/react";
 import WorkCard from "../components/work/WorkCard";
 
 const Work = () => {
@@ -14,19 +14,39 @@ const Work = () => {
       >
         <WorkCard
           description={
+            "A web application for uploading and downloading books in pdf format."
+          }
+          title={"Unibook E-library App"}
+          tools={["ReactJS", "Material UI", "NodeJS", "Express", "MongoDB"]}
+          imageLink={"/unibook.png"}
+          githubLink={"https://github.com/Christianey/e_library_app.git"}
+          websiteLink={"https://unibook.netlify.app"}
+        />
+        <WorkCard
+          description={
             "A responsive single page webiste with functional form that verifies Debit card input and gives appropriate error for invalid errors for each input field respectively."
           }
-          title={"Simple Checkout Page"}
-          tools={["Chakra UI", "ReactJS"]}
+          title={"Pixta - Instagram Clone"}
+          tools={["ReactJS", "Tailwind CSS", "NodeJS", "Express", "MongoDB"]}
+          imageLink={"/pixta.png"}
+          githubLink={"https://github.com/Christianey/pixta_social.git"}
+          websiteLink={"https://pixta.netlify.app"}
+        />
+        <WorkCard
+          description={
+            "An instagram clone. Still in progress. Registration and login completed."
+          }
+          title={"Pixta Social"}
+          tools={["ReactJS", "Chakra UI"]}
           imageLink={"/landing-lights.png"}
           githubLink={"https://github.com/Christianey/landing-light.git"}
           websiteLink={"https://landing-lights.netlify.app"}
         />
-        {/* <WorkCard />
-        <WorkCard />
-        <WorkCard />
-        <WorkCard /> */}
       </Flex>
+      <Text fontStyle="italic" textAlign={"center"}>
+        NB: I've also worked on other amazing projects and applications which
+        are available on request.
+      </Text>
     </Slide>
   );
 };
