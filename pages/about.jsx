@@ -21,10 +21,13 @@ const About = () => {
               mb={[4, 4, 0, 0]}
               boxSize={["8rem", "8rem", "8rem", "10rem"]}
               bg="darkBlue"
+              sx={{
+                borderColor: "#00C95D !important",
+                "& img": { position: "relative", height: "auto", top: "1rem" },
+              }}
               border={"3px solid"}
-              borderColor={"primary"}
-              // src={"/fegabyte.png"}
-              ima
+              src={"/fega.png"}
+              overflow="hidden"
             />
             <Text
               flexBasis={["100%", "100%", "auto", "auto"]}
