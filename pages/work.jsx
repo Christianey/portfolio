@@ -12,11 +12,20 @@ const Work = () => {
         justify={"space-around"}
         mx={"auto"}
       >
+        <WorkCard
+          description={
+            "A responsive single page webiste with functional form that verifies Debit card input and gives appropriate error for invalid errors for each input field respectively."
+          }
+          title={"Simple Checkout Page"}
+          tools={["Chakra UI", "ReactJS"]}
+          imageLink={"/landing-lights.png"}
+          githubLink={"https://github.com/Christianey/landing-light.git"}
+          websiteLink={"https://landing-light.netlify.app"}
+        />
+        {/* <WorkCard />
         <WorkCard />
         <WorkCard />
-        <WorkCard />
-        <WorkCard />
-        <WorkCard />
+        <WorkCard /> */}
       </Flex>
     </Slide>
   );

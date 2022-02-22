@@ -35,7 +35,6 @@ const Nav = () => {
           </a>
         </Link>
       </Box>
-      {/* <RiHomeLine size="2rem" color="white" /> */}
       <Flex
         as="nav"
         justify={"space-between"}
