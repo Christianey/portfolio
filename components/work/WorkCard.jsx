@@ -42,37 +42,43 @@ const WorkCard = ({
       }}
     >
       <Box className="img-wrapper" minH={"10rem"}>
-        <Flex
-          width={"100%"}
-          height={"100%"}
-          borderRadius={"lg"}
-          color={"white"}
-          overflow={"hidden"}
-          pos={"relative"}
-          transition={"transform .3s ease-in-out"}
-          _before={{
-            content: "''",
-            pos: "absolute",
-            w: "100%",
-            h: "100%",
-            bg: "secondary",
-            opacity: "0.4",
-            zIndex: 1,
-            transition: "opacity 0.2s ease-in-out",
-          }}
-        >
-          <Img
-            as={Image}
+        <a as="a" href={websiteLink} target="_blank" rel="noreferrer">
+          <Flex
             width={"100%"}
             height={"100%"}
-            layout={"fill"}
-            objectFit={"cover"}
-            src={imageLink}
-          />
-        </Flex>
+            borderRadius={"lg"}
+            color={"white"}
+            overflow={"hidden"}
+            pos={"relative"}
+            transition={"transform .3s ease-in-out"}
+            _before={{
+              content: "''",
+              pos: "absolute",
+              w: "100%",
+              h: "100%",
+              bg: "secondary",
+              opacity: "0.4",
+              zIndex: 1,
+              transition: "opacity 0.2s ease-in-out",
+            }}
+          >
+            <Img
+              as={Image}
+              width={"100%"}
+              height={"100%"}
+              layout={"fill"}
+              objectFit={"cover"}
+              src={imageLink}
+            />
+          </Flex>
+        </a>
       </Box>
       <Flex direction={"column"} maxWidth="100%">
         <Text
+          as="a"
+          href={websiteLink}
+          target="_blank"
+          rel="noreferrer"
           mb={2}
           textTransform={"uppercase"}
           alignSelf={"start"}
