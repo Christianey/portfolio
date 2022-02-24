@@ -42,7 +42,7 @@ const WorkCard = ({
       }}
     >
       <Box className="img-wrapper" minH={"10rem"}>
-        <a as="a" href={websiteLink} target="_blank" rel="noreferrer">
+        <a href={websiteLink} target="_blank" rel="noreferrer">
           <Flex
             width={"100%"}
             height={"100%"}
