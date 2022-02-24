@@ -39,12 +39,7 @@ const Nav = () => {
       >
         <Link href={"/"}>
           <a>
-            <Image
-              src="/Asset 1.svg"
-              width={"100%"}
-              height={"100%"}
-              layout="fill"
-            />
+            <Image src="/Asset 1.svg" layout="fill" />
           </a>
         </Link>
       </Box>
