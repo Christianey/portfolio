@@ -130,13 +130,21 @@ const Nav = () => {
         align={"center"}
         color={"white"}
         minW={"30%"}
-        gridGap={4}
         sx={{
           "& > a > .chakra-text": {
             fontSize: [".8rem", ".8rem", "1rem", "1rem"],
+            px: 4,
+
             _hover: {
               color: "primary",
               cursor: "pointer",
+            },
+          },
+          "& a": {
+            _notLast: {
+              " .chakra-text": {
+                borderRight: "thin solid rgb(255 255 255 / 5%)",
+              },
             },
           },
         }}
