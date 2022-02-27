@@ -5,19 +5,17 @@ import Img from "next/image";
 const Hero = () => {
   return (
     <>
-      <Flex
-        direction={"column"}
+      <Box
         px={[2, 4, 6, 10]}
         py={[4, 4, 4, 6]}
         sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
         w={[null, null, null, "80%", "70%"]}
-        h={"90vh"}
       >
         <Text
           color={"white"}
           pos={"relative"}
           top={[1, 2, 6, 10]}
-          left={[0, 2, 20, "28"]}
+          left={[0, 2, 20, 28]}
         >
           Hello there, I am{" "}
         </Text>
@@ -81,7 +79,7 @@ const Hero = () => {
             available for Frontend developer roles.
           </Text>
         </Box>
-      </Flex>
+      </Box>
       <Flex
         h={["50%", "50%", "40%", "70%"]}
         pos={"absolute"}
