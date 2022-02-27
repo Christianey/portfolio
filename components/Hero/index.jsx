@@ -11,40 +11,42 @@ const Hero = () => {
         sx={{ "& > .chakra-text": { lineHeight: "normal" } }}
         w={[null, null, null, "80%", "70%"]}
       >
-        <Text
-          color={"white"}
-          pos={"relative"}
-          top={[1, 2, 6, 10]}
-          left={[0, 2, 20, 28]}
-        >
-          Hello there, I am{" "}
-        </Text>
-        <Text
-          as={"h1"}
-          color={"secondary"}
-          fontWeight={"bold"}
-          bg="-webkit-linear-gradient(0deg, #00C95D 0%, #3A91A0 50%)"
-          sx={{
-            "&": {
-              "-webkit-background-clip": "text",
-              "-webkit-text-fill-color": "transparent",
-              "@media screen and (min-width: 360px)": {
-                fontSize: "4.2rem",
+        <Box pos="relative">
+          <Text
+            color={"white"}
+            pos={"relative"}
+            top={["1rem", "1.6rem", "3rem", "4rem"]}
+            left={[0, 2, 20, 28]}
+          >
+            Hello there, I am{" "}
+          </Text>
+          <Text
+            as={"h1"}
+            color={"secondary"}
+            fontWeight={"bold"}
+            bg="-webkit-linear-gradient(0deg, #00C95D 0%, #3A91A0 50%)"
+            sx={{
+              "&": {
+                "-webkit-background-clip": "text",
+                "-webkit-text-fill-color": "transparent",
+                "@media screen and (min-width: 360px)": {
+                  fontSize: "4.2rem",
+                },
               },
-            },
-          }}
-          fontSize={[
-            "3.5rem ",
-            "6rem !important",
-            "8rem !important",
-            "9.5rem !important",
-          ]}
-          ml={["-.3rem", "-0.5rem", "-1rem", "-1rem"]}
-          pos={"relative"}
-          zIndex={7}
-        >
-          Fegabyte
-        </Text>
+            }}
+            fontSize={[
+              "3.5rem ",
+              "6rem !important",
+              "8rem !important",
+              "9.5rem !important",
+            ]}
+            ml={["-.3rem", "-0.5rem", "-1rem", "-1rem"]}
+            pos={"relative"}
+            zIndex={7}
+          >
+            Fegabyte
+          </Text>
+        </Box>
         <Box
           pos={"relative"}
           zIndex={5}
