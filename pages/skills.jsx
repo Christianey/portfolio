@@ -84,10 +84,6 @@ const Skills = () => {
           icon={<FiTarget size={"2rem"} style={{ zIndex: 1 }} />}
           description={"Attention to details"}
         />
-        {/* <SkillIcon
-            icon={<SiSnapcraft size={"2rem"} style={{ zIndex: 1 }} />}
-            description={"Design Experience"}
-          /> */}
         <SkillIcon
           icon={<MdDevices size={"2rem"} style={{ zIndex: 1 }} />}
           description={"Responsive Design"}
@@ -96,10 +92,6 @@ const Skills = () => {
           icon={<MdTouchApp size={"2rem"} style={{ zIndex: 1 }} />}
           description={"Dynamic and Interactive Websites"}
         />
-        {/* <SkillIcon
-            icon={<HiLightBulb size={"2rem"} style={{ zIndex: 1 }} />}
-            description={"Intuitive Websites"}
-          /> */}
       </Flex>
       <Box maxW={"50rem"} mx={"auto"}>
         <Tabs variant={"enclosed"} isFitted align="center">
