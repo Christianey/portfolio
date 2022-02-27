@@ -55,7 +55,7 @@ const Hero = () => {
           p={["1rem", "1rem", "2rem", "2rem"]}
           borderRadius={"lg"}
           pt={["1rem", "1.5rem", "2rem", "3rem"]}
-          top={["-1rem", "-1.5rem", "-2rem", "-3rem"]}
+          top={["-1.8rem", "-3rem", "-3.8rem", "-4.5rem"]}
           overflow={"hidden"}
           boxShadow={"0 4px 30px rgba(0, 0, 0, 0.1)"}
           backdropBlur={"5px"}
