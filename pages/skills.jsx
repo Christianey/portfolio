@@ -27,6 +27,7 @@ import { FaReact, FaSass } from "react-icons/fa";
 import { DiCss3, DiIllustrator, DiPhotoshop } from "react-icons/di";
 import { ImHtmlFive } from "react-icons/im";
 import { BsGithub } from "react-icons/bs";
+import Layout from "../components/common/Layout";
 // import { HiLightBulb } from "react-icons/hi";
 
 const SkillIcon = ({ icon, description }) => {
@@ -68,98 +69,100 @@ const SkillIcon = ({ icon, description }) => {
 };
 const Skills = () => {
   return (
-    <Slide direction="right" in={true} style={{ position: "static" }}>
-      <Flex
-        maxW={"50rem"}
-        justify={"space-around"}
-        flexWrap={"wrap"}
-        mx={"auto"}
-        mb="10"
-      >
-        <SkillIcon
-          icon={<IoIosSpeedometer size={"2rem"} style={{ zIndex: 1 }} />}
-          description={"Optimize pages for faster performance"}
-        />
-        <SkillIcon
-          icon={<FiTarget size={"2rem"} style={{ zIndex: 1 }} />}
-          description={"Attention to details"}
-        />
-        <SkillIcon
-          icon={<MdDevices size={"2rem"} style={{ zIndex: 1 }} />}
-          description={"Responsive Design"}
-        />
-        <SkillIcon
-          icon={<MdTouchApp size={"2rem"} style={{ zIndex: 1 }} />}
-          description={"Dynamic and Interactive Websites"}
-        />
-      </Flex>
-      <Box maxW={"50rem"} mx={"auto"}>
-        <Tabs variant={"enclosed"} isFitted align="center">
-          <TabList
-            as={Flex}
-            borderBottomColor={"secondary"}
-            sx={{
-              "& > button": {
-                _focus: { boxShadow: "none" },
-                color: "white",
-                outline: "none",
-                _selected: {
-                  color: "primary",
-                  fontWeight: "bold",
-                  fontSize: "1.3rem",
-                  borderBottomColor: "secondary !important",
-                  transition: "all 3ms ease-in",
-                  borderBottom: "5px solid",
-                  borderRadius: "md",
+    <Layout title="Fegabyte Tech - Skills">
+      <Slide direction="right" in={true} style={{ position: "static" }}>
+        <Flex
+          maxW={"50rem"}
+          justify={"space-around"}
+          flexWrap={"wrap"}
+          mx={"auto"}
+          mb="10"
+        >
+          <SkillIcon
+            icon={<IoIosSpeedometer size={"2rem"} style={{ zIndex: 1 }} />}
+            description={"Optimize pages for faster performance"}
+          />
+          <SkillIcon
+            icon={<FiTarget size={"2rem"} style={{ zIndex: 1 }} />}
+            description={"Attention to details"}
+          />
+          <SkillIcon
+            icon={<MdDevices size={"2rem"} style={{ zIndex: 1 }} />}
+            description={"Responsive Design"}
+          />
+          <SkillIcon
+            icon={<MdTouchApp size={"2rem"} style={{ zIndex: 1 }} />}
+            description={"Dynamic and Interactive Websites"}
+          />
+        </Flex>
+        <Box maxW={"50rem"} mx={"auto"}>
+          <Tabs variant={"enclosed"} isFitted align="center">
+            <TabList
+              as={Flex}
+              borderBottomColor={"secondary"}
+              sx={{
+                "& > button": {
+                  _focus: { boxShadow: "none" },
+                  color: "white",
+                  outline: "none",
+                  _selected: {
+                    color: "primary",
+                    fontWeight: "bold",
+                    fontSize: "1.3rem",
+                    borderBottomColor: "secondary !important",
+                    transition: "all 3ms ease-in",
+                    borderBottom: "5px solid",
+                    borderRadius: "md",
+                  },
                 },
-              },
-            }}
-          >
-            <Tab>Programming</Tab>
-            <Tab>Design</Tab>
-          </TabList>
-          <TabPanels>
-            <TabPanel>
-              <Flex
-                py={4}
-                gridGap={6}
-                sx={{ "& > svg": { color: "primary", size: "5rem" } }}
-                flexWrap={"wrap"}
-                justify={"space-around"}
-              >
-                <ImHtmlFive size={"5rem"} />
-                <DiCss3 size={"5rem"} />
-                <FaSass size={"5rem"} />
-                <SiJavascript size={"5rem"} />
-                <FaReact size={"5rem"} />
-                <SiRedux size={"5rem"} />
-                <SiNextdotjs size={"5rem"} />
-                <IoLogoNodejs size={"5rem"} />
-                <SiMongodb size={"5rem"} />
-                <SiExpress size={"5rem"} />
-                <BsGithub size={"5rem"} />
-                <SiTailwindcss size={"5rem"} />
-                <SiMaterialui size={"5rem"} />
-                <SiChakraui size={"5rem"} />
-              </Flex>
-            </TabPanel>
-            <TabPanel>
-              <Flex
-                gridGap={6}
-                py={4}
-                sx={{ "& > svg": { color: "primary", size: "5rem" } }}
-                flexWrap={"wrap"}
-                justify={"space-around"}
-              >
-                <DiPhotoshop size={"5rem"} />
-                <DiIllustrator size={"5rem"} />
-                <FiFigma size={"5rem"} />
-              </Flex>
-            </TabPanel>
-          </TabPanels>
-        </Tabs>
-      </Box>
-    </Slide>
+              }}
+            >
+              <Tab>Programming</Tab>
+              <Tab>Design</Tab>
+            </TabList>
+            <TabPanels>
+              <TabPanel>
+                <Flex
+                  py={4}
+                  gridGap={6}
+                  sx={{ "& > svg": { color: "primary", size: "5rem" } }}
+                  flexWrap={"wrap"}
+                  justify={"space-around"}
+                >
+                  <ImHtmlFive size={"5rem"} />
+                  <DiCss3 size={"5rem"} />
+                  <FaSass size={"5rem"} />
+                  <SiJavascript size={"5rem"} />
+                  <FaReact size={"5rem"} />
+                  <SiRedux size={"5rem"} />
+                  <SiNextdotjs size={"5rem"} />
+                  <IoLogoNodejs size={"5rem"} />
+                  <SiMongodb size={"5rem"} />
+                  <SiExpress size={"5rem"} />
+                  <BsGithub size={"5rem"} />
+                  <SiTailwindcss size={"5rem"} />
+                  <SiMaterialui size={"5rem"} />
+                  <SiChakraui size={"5rem"} />
+                </Flex>
+              </TabPanel>
+              <TabPanel>
+                <Flex
+                  gridGap={6}
+                  py={4}
+                  sx={{ "& > svg": { color: "primary", size: "5rem" } }}
+                  flexWrap={"wrap"}
+                  justify={"space-around"}
+                >
+                  <DiPhotoshop size={"5rem"} />
+                  <DiIllustrator size={"5rem"} />
+                  <FiFigma size={"5rem"} />
+                </Flex>
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
+        </Box>
+      </Slide>
+    </Layout>
   );
 };
 

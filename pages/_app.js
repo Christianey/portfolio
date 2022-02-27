@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { ChakraProvider, Flex, Box } from "@chakra-ui/react";
 import Nav from "../components/common/Nav";
 import CircleGradients from "../components/Hero/components/CircleGradients";
@@ -7,11 +8,14 @@ import "../public/styles.css";
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme} resetCSS>
+      <Head>
+        <title>Fegabyte Tech</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Flex
         direction={"column"}
         pos={"relative"}
         w="full"
-        // minH="100vh"
         bg={"darkBlue"}
         overflow={"hidden"}
       >
