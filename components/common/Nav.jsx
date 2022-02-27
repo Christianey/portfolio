@@ -39,7 +39,7 @@ const Nav = () => {
       >
         <Link href={"/"}>
           <a>
-            <Image src="/Asset 1.svg" layout="fill" />
+            <Image src="/Asset 1.svg" layout="fill" alt="Fegabyte logo" />
           </a>
         </Link>
       </Box>
