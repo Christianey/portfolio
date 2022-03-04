@@ -88,7 +88,7 @@ const Hero = () => {
         zIndex={20}
         className={styles.hand}
       >
-        <Image src="/hand.png" alt="hello" />
+        <Image src="/hand.png" alt="hello" h="100%" />
       </Flex>
     </>
   );
