@@ -1,6 +1,7 @@
 import { Flex, Text, Image, Box } from "@chakra-ui/react";
 import styles from "../../pages/Hand.module.css";
 import Img from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -32,11 +33,14 @@ const Hero = () => {
                 "@media screen and (min-width: 360px)": {
                   fontSize: "4.2rem",
                 },
+                "@media screen and (min-width: 480px and max-width: 500px)": {
+                  fontSize: "4rem",
+                },
               },
             }}
             fontSize={[
               "3.5rem ",
-              "6rem !important",
+              "5.8rem !important",
               "8rem !important",
               "9.5rem !important",
             ]}
@@ -73,12 +77,19 @@ const Hero = () => {
           >
             <Img src="/bg.jpeg" layout="fill" />
           </Flex>
-          <Text>
+          <Text pos="relative" zIndex={6}>
             I am a web developer with an eye for design backed by experience as
             a graphic designer. I have a passion for good user experience and
             mobile responsiveness. I have a knack for learning and problem
             solving using the right tools and up to date technology. <br />I am
-            available for Frontend developer roles.
+            available for Frontend developer roles. <br />
+            <Link href={"/contact"}>
+              <a href="">
+                <Text as="span" color="primary">
+                  Contact me
+                </Text>
+              </a>
+            </Link>
           </Text>
         </Box>
       </Box>
