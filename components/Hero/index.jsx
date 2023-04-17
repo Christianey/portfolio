@@ -77,14 +77,12 @@ const Hero = () => {
           >
             <Img src="/bg.jpeg" layout="fill" />
           </Flex>
-          <Text pos="relative" zIndex={6}>
+          <Text pos="relative" zIndex={6} fontSize={["sm", "sm", "md", "lg"]}>
             I am a web developer with an eye for design backed by experience as
-            a graphic designer. I have a passion for good user experience and
-            mobile responsiveness. I have a knack for learning and problem
-            solving using the right tools and up to date technology. <br />I am
-            available for Frontend developer roles. <br />
+            a graphic designer. I build quality web applications. I am
+            available for Frontend developer roles and projects. <br /> 
             <Link href={"/contact"}>
-              <a href="">
+              <a>
                 <Text as="span" color="primary">
                   Contact me
                 </Text>

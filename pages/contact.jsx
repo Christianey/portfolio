@@ -27,6 +27,14 @@ const Contacts = () => {
             templateRows={"3rem 1fr"}
             alignItems="center"
           >
+            <SiGmail className={styles.skills} />
+            <a
+              href="mailto:fegabytech@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Text className={styles.skills}>fegabytech@gmail.com</Text>
+            </a>
             <AiFillGithub className={styles.skills} />
             <a
               href="https://github.com/Christianey"
@@ -59,14 +67,7 @@ const Contacts = () => {
             >
               <Text className={styles.skills}>@fegabyte</Text>
             </a>
-            <SiGmail className={styles.skills} />
-            <a
-              href="mailto:fegabytech@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Text className={styles.skills}>fegabytech@gmail.com</Text>
-            </a>
+            
             <SiWhatsapp className={styles.skills} />
             <a
               href="https://api.whatsapp.com/send?phone=2349071009474"
