@@ -28,7 +28,7 @@ const Work = () => {
             description={
               "A Simple responsive dashboard with Charts."
             }
-            title={"Simple Responsive Dashboard"}
+            title={"Company Dashboard"}
             tools={["ReactJS", "Chakra-UI", "ChartJS"]}
             imageLink={"/mainstack.png"}
             githubLink={"https://github.com/Christianey/mainstack-dashboard.git"}
