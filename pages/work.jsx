@@ -26,13 +26,13 @@ const Work = () => {
           />
           <WorkCard
             description={
-              "A web application for uploading and downloading books in pdf format."
+              "A Simple responsive dashboard with Charts."
             }
-            title={"Unibook E-library App"}
-            tools={["ReactJS", "MUI", "Express", "MongoDB"]}
-            imageLink={"/unibook.png"}
-            githubLink={"https://github.com/Christianey/e_library_app.git"}
-            websiteLink={"https://unibook.netlify.app"}
+            title={"Simple Responsive Dashboard"}
+            tools={["ReactJS", "Chakra-UI", "ChartJS"]}
+            imageLink={"/mainstack.png"}
+            githubLink={"https://github.com/Christianey/mainstack-dashboard.git"}
+            websiteLink={"https://mainstack-dashboard-ochre.vercel.app/"}
           />
           <WorkCard
             description={

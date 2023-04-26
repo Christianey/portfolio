@@ -28,8 +28,8 @@ const Hero = () => {
             bg="-webkit-linear-gradient(0deg, #00C95D 0%, #3A91A0 50%)"
             sx={{
               "&": {
-                "-webkit-background-clip": "text",
-                "-webkit-text-fill-color": "transparent",
+                WebkitTextFillColor: "transparent",
+                WebkitBackgroundClip: "text",
                 "@media screen and (min-width: 360px)": {
                   fontSize: "4.2rem",
                 },
