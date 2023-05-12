@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import { IoIosSpeedometer, IoLogoNodejs } from "react-icons/io";
 import { FiTarget, FiFigma } from "react-icons/fi";
-// import { SiSnapcraft } from "react-icons/si";
 import { MdDevices, MdTouchApp } from "react-icons/md";
 import {
   SiChakraui,
@@ -22,13 +21,13 @@ import {
   SiRedux,
   SiTailwindcss,
   SiExpress,
+  SiTypescript
 } from "react-icons/si";
-import { FaReact, FaSass } from "react-icons/fa";
+import { FaReact, FaSass, FaVuejs } from "react-icons/fa";
 import { DiCss3, DiIllustrator, DiPhotoshop } from "react-icons/di";
 import { ImHtmlFive } from "react-icons/im";
 import { BsGithub } from "react-icons/bs";
 import Layout from "../components/common/Layout";
-// import { HiLightBulb } from "react-icons/hi";
 
 const SkillIcon = ({ icon, description }) => {
   return (
@@ -132,17 +131,19 @@ const Skills = () => {
                   <ImHtmlFive size={"5rem"} />
                   <DiCss3 size={"5rem"} />
                   <FaSass size={"5rem"} />
+                  <SiTailwindcss size={"5rem"} />
                   <SiJavascript size={"5rem"} />
+                  <SiTypescript size={"5rem"} />
                   <FaReact size={"5rem"} />
                   <SiRedux size={"5rem"} />
                   <SiNextdotjs size={"5rem"} />
+                  <FaVuejs size={"5rem"} />
+                  <SiMaterialui size={"5rem"} />
+                  <SiChakraui size={"5rem"} />
                   <IoLogoNodejs size={"5rem"} />
                   <SiMongodb size={"5rem"} />
                   <SiExpress size={"5rem"} />
                   <BsGithub size={"5rem"} />
-                  <SiTailwindcss size={"5rem"} />
-                  <SiMaterialui size={"5rem"} />
-                  <SiChakraui size={"5rem"} />
                 </Flex>
               </TabPanel>
               <TabPanel>
