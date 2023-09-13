@@ -106,20 +106,16 @@ const Nav = () => {
                 >
                   <Text>BLOG</Text>
                 </a>
-                {/* <a
-                  // href={
-                  //   "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
-                  // }
+                <a
                   href={
-                    "https://docs.google.com/document/d/1aR0n17K45YAnLYOZZ8Ykk8Ls0f6J6fsRtN8r_CAKPbY/edit?usp=drive_link"
+                    "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr"
                   }
-                  // target={"_blank"}
-                  // rel="noreferrer"
-                  // download
+                  target={"_blank"}
+                  rel="noreferrer"
                   onClick={onClose}
                 >
-                  <Text>DOWNLOAD CVs</Text>
-                </a> */}
+                  <Text>VIEW CV</Text>
+                </a>
               </Flex>
             </ModalBody>
           </ModalContent>

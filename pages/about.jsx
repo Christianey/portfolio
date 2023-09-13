@@ -64,13 +64,12 @@ const About = () => {
             <Flex justify={"center"} color={"primary"} my={4}>
               <a
                 href={
-                  "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
+                  "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr"
                 }
                 target={"_blank"}
                 rel="noreferrer"
-                download
               >
-                <Text mx="auto">Download Resume</Text>
+                <Text mx="auto">View CV</Text>
               </a>
             </Flex>
           </Box>
