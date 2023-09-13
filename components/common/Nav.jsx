@@ -106,17 +106,20 @@ const Nav = () => {
                 >
                   <Text>BLOG</Text>
                 </a>
-                <a
+                {/* <a
+                  // href={
+                  //   "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
+                  // }
                   href={
-                    "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
+                    "https://docs.google.com/document/d/1aR0n17K45YAnLYOZZ8Ykk8Ls0f6J6fsRtN8r_CAKPbY/edit?usp=drive_link"
                   }
-                  target={"_blank"}
-                  rel="noreferrer"
-                  download
+                  // target={"_blank"}
+                  // rel="noreferrer"
+                  // download
                   onClick={onClose}
                 >
-                  <Text>DOWNLOAD CV</Text>
-                </a>
+                  <Text>DOWNLOAD CVs</Text>
+                </a> */}
               </Flex>
             </ModalBody>
           </ModalContent>
@@ -178,13 +181,12 @@ const Nav = () => {
         </a>
         <a
           href={
-            "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr&export=download"
+            "https://drive.google.com/uc?id=1gm1ugeTBdtD-FH7ZL1KV8I_5muaJ1pkr"
           }
           target={"_blank"}
           rel="noreferrer"
-          download
         >
-          <Text>DOWNLOAD CV</Text>
+          <Text>VIEW CV</Text>
         </a>
       </Flex>
     </Flex>
